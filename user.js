@@ -4,3 +4,11 @@ class user {
         this.age = age;
     }
 }
+
+function printName(user) {
+    console.log(`User's name is ${user.name}`);
+}
+
+function printAge(user) {
+    console.log(`User is ${user.age} years old`);
+}
