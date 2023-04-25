@@ -5,11 +5,11 @@ export default class user {
         this.age = age;
     }
 }
-
+// Below is the inline export 
 export function printName(user) {
     console.log(`User's name is ${user.name}`);
 }
-
+// Another export below same as above
 export function printAge(user) {
     console.log(`User is ${user.age} years old`);
 }
